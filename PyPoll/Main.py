@@ -80,7 +80,7 @@ print(f"Winner: {Winner}")
 print("---------------------------")
 
 
-#Create PyBank.txt file
+#Create PyPoll.txt file
 with open("PyPoll.txt", "w") as file:
 
     # # Write all values
