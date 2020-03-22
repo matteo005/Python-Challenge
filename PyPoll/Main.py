@@ -30,6 +30,7 @@ with open(csvpath, 'r') as csvfile:
         NumVotes.append(int(row[0]))
         Candidate.append(row[2])
 
+        #Update a count of each Candidate
         if row[2] == "Khan":
             KhanVotes += 1
 
