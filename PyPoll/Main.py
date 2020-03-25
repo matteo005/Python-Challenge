@@ -13,7 +13,7 @@ OTooleyVotes = 0
 
 
 # Module for reading CSV files
-csvpath = os.path.join('../..', 'Resources', 'election_data.csv')
+csvpath = os.path.join('..', 'Resources', 'election_data.csv')
 
 with open(csvpath, 'r') as csvfile:
 
